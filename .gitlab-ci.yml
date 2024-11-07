@@ -1,0 +1,13 @@
+stages:
+  - release
+
+before_script:
+  - npm install
+
+publish:
+  image: node:12
+  stage: release
+  script:
+    - npx semantic-release
+  only: 
+    - main
