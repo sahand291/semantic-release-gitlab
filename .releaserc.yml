@@ -1,0 +1,8 @@
+branches: [ 'main' ]
+
+repositoryUrl: 'https://girt.ir/sahand.k/semantic-release'
+
+plugins: ['@semantic-release/commit-analyzer', '@semantic-release/release-notes-generator', '@semantic-release/gitlab']
+
+
+debug: true
