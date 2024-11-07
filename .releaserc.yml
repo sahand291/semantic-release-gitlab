@@ -14,7 +14,8 @@ plugins: [
     {
       preset: 'conventionalcommits'
     }
-  , '@semantic-release/gitlab']
+  ],
+  '@semantic-release/gitlab']
 
 
 debug: true
