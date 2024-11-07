@@ -13,6 +13,9 @@ plugins: [
     '@semantic-release/release-notes-generator',
     {
       preset: 'conventionalcommits'
+      presetConfig: {
+        issueUrlFormat: 'https://app.clickup.com/t/{{id}}'
+      }
     }
   ],
   '@semantic-release/gitlab']
