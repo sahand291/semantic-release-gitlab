@@ -9,5 +9,5 @@ publish:
   stage: release
   script:
     - npx semantic-release
-  only: 
-    - main
+  #  only: 
+  # - main
