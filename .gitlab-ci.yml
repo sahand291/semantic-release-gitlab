@@ -5,7 +5,7 @@ before_script:
   - npm install
 
 publish:
-  image: node:12
+  image: node:22
   stage: release
   script:
     - npx semantic-release
