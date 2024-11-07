@@ -3,10 +3,16 @@ branches: [ 'main' ]
 repositoryUrl: 'https://girt.ir/sahand.k/semantic-release'
 
 plugins: [
-  '@semantic-release/commit-analyzer',
+  [
+    '@semantic-release/commit-analyzer',
+    {
+      preset: 'conventionalcommits',
+    }
+  ],
   [
     '@semantic-release/release-notes-generator',
     {
+      preset: 'conventionalcommits',
       presetConfig: {
         issueUrlFormat: 'https://app.clickup.com/t/{{id}}'
       }
