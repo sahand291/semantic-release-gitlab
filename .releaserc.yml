@@ -6,7 +6,7 @@ plugins: [
   [
     '@semantic-release/commit-analyzer',
     {
-      preset: 'conventionalcommits'
+      preset: 'eslint'
     }
   ], '@semantic-release/release-notes-generator', '@semantic-release/gitlab']
 
