@@ -14,7 +14,7 @@ plugins: [
     {
       preset: 'conventionalcommits',
       presetConfig: {
-        presetPrefix: ' - Clickup: ',
+        issuePrefix: ' - Clickup: ',
         issueUrlFormat: 'https://app.clickup.com/t/{{id}}'
       }
     }
